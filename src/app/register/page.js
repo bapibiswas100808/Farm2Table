@@ -6,7 +6,7 @@ import { FcGoogle } from "react-icons/fc";
 const RegisterPage = () => {
   const [show, setShow] = useState("");
   return (
-    <div className="">
+    <div className="max-w-[1170px] mx-auto px-3 lg:px-0">
       <h2 className="py-10 mt-1 text-yellow bg-green-500 font-bold text-center text-2xl lg:text-4xl">
         Welcome to Farm2Table
       </h2>

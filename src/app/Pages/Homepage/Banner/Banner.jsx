@@ -53,14 +53,14 @@ const Banner = () => {
               <Image
                 src={banner1}
                 alt="Farm2Table Banner"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: "cover" }}
                 className="z-0"
               />
               <div className="hero-overlay bg-opacity-60 z-10 pointer-events-none"></div>
               <div className="hero-content text-center text-neutral-content z-20 relative">
                 <div className="max-w-lg">
-                  <h1 className="mb-5 text-5xl font-bold text-yellow">
+                  <h1 className="mb-5 text-3xl lg:text-5xl font-bold text-yellow">
                     F
                     <Typewriter
                       key={typewriterKey}
@@ -94,8 +94,8 @@ const Banner = () => {
               <Image
                 src={banner2}
                 alt="Farm2Table Banner"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: "cover" }}
                 className="z-0"
               />
               <div className="hero-overlay bg-opacity-60 z-10 pointer-events-none"></div>
@@ -135,8 +135,8 @@ const Banner = () => {
               <Image
                 src={banner3}
                 alt="Farm2Table Banner"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: "cover" }}
                 className="z-0"
               />
               <div className="hero-overlay bg-opacity-60 z-10 pointer-events-none"></div>
@@ -176,8 +176,8 @@ const Banner = () => {
               <Image
                 src={banner4}
                 alt="Farm2Table Banner"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: "cover" }}
                 className="z-0"
               />
               <div className="hero-overlay bg-opacity-60 z-10 pointer-events-none"></div>
@@ -217,8 +217,8 @@ const Banner = () => {
               <Image
                 src={banner5}
                 alt="Farm2Table Banner"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: "cover" }}
                 className="z-0"
               />
               <div className="hero-overlay bg-opacity-60 z-10 pointer-events-none"></div>
@@ -258,8 +258,8 @@ const Banner = () => {
               <Image
                 src={banner6}
                 alt="Farm2Table Banner"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: "cover" }}
                 className="z-0"
               />
               <div className="hero-overlay bg-opacity-60 z-10 pointer-events-none"></div>

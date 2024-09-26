@@ -21,7 +21,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className=" bg-[#28a745] sticky">
+    <div className=" bg-[#28a745] sticky top-0 z-10">
       <div className="navbar max-w-[1170px] mx-auto text-white">
         <div className="navbar-start">
           <div className="dropdown">
@@ -43,14 +43,14 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-yellow-500 rounded-box z-[10] mt-3 w-52 p-2 shadow"
             >
               {navLinks}
             </ul>
           </div>
           <Link href="/" className=" flex items-center">
-            <Image className="hidden md:block" src={logo} alt="" height={60} />
-            <span className="text-[#FFD700] font-bold text-2xl">
+            <Image className="" src={logo} alt="" height={60} />
+            <span className="text-[#FFD700] font-bold text-2xl hidden md:block">
               Farm2Table
             </span>
           </Link>
