@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-yellow {
+  color: #ffd700;
+}
+.text-green {
+  color: #28a745;
+}
+
+.project-btn {
+  background-color: #ffd700;
+  color: #28a745;
+  border-radius: 10px;
+  box-shadow: #171717;
+  padding: 8px 12px;
+  font-weight: 600;
+}
+.project-btn:hover {
+  background-color: beige;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
