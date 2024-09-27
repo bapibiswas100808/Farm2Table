@@ -5,7 +5,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="bg-[#28a745]">
-      <footer className="footer max-w-[1170px] mx-auto text-white p-10">
+      <footer className="footer max-w-[1170px] mx-auto text-white p-10 justify-center md:justify-between">
         <nav>
           <h6 className="footer-title">Services</h6>
           <a className="link link-hover">Branding</a>
@@ -31,9 +31,13 @@ const Footer = () => {
         <aside className="grid-flow-col items-center">
           <Image className="" src={logo} alt="" height={60} />
           <p>
-            <span className="text-lg font-bold"> Farm2Table BD Ltd.</span>
+            <span className="text-lg font-bold text-yellow">
+              Farm2Table BD Ltd.
+            </span>
             <br />
-            Providing reliable Food since 2020
+            <span className="text-white">
+              Providing reliable Food since 2020
+            </span>
           </p>
         </aside>
         <nav className="justify-self-center md:place-self-center md:justify-self-end">

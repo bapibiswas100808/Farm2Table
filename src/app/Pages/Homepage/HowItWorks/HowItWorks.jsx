@@ -36,13 +36,13 @@ const HowItWorks = () => {
         <ul className="steps steps-vertical lg:steps-horizontal lg:space-x-3 space-y-3 lg:space-y-0">
           <li className="step step-warning relative">
             <Image className="w-full h-[300px]" src={field} alt="field" />
-            <h2 className="text-yellow-500 text-4xl font-bold absolute top-2/3 left-1/2 -translate-x-1/2 bg-green-700 p-2">
+            <h2 className="text-yellow-500 text-4xl font-bold absolute top-2/3 left-1/2  -translate-x-1/4 lg:-translate-x-1/2 bg-green-700 p-2">
               Field
             </h2>
           </li>
           <li className="step step-warning relative">
             <Image className="w-full h-[300px]" src={farmer} alt="field" />
-            <h2 className="text-yellow-500 text-4xl font-bold absolute top-2/3 left-1/2 -translate-x-1/2 bg-green-700 p-2">
+            <h2 className="text-yellow-500 text-4xl font-bold absolute top-2/3 left-1/2 -translate-x-1/4 lg:-translate-x-1/2 bg-green-700 p-2">
               Farmer
             </h2>
           </li>
@@ -51,7 +51,7 @@ const HowItWorks = () => {
           </li>
           <li className="step step-warning relative">
             <Image className="w-full h-[300px]" src={consumer} alt="field" />
-            <h2 className="text-yellow-500 text-4xl font-bold absolute top-2/3 left-1/2 -translate-x-1/2 bg-green-700 p-2">
+            <h2 className="text-yellow-500 text-4xl font-bold absolute top-2/3 left-1/2 -translate-x-1/4 lg:-translate-x-1/2 bg-green-700 p-2">
               Consumer
             </h2>
           </li>

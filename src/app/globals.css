@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+p,
+span,
+li,
+strong {
+  color: #0a0a0a;
+}
+.navbar li {
+  color: white;
+}
+.banner-area span {
+  color: #ffd700;
+}
+
 .text-yellow {
   color: #ffd700;
 }
